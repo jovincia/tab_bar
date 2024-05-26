@@ -15,11 +15,13 @@ class HomePage extends StatelessWidget {
       length: 3,
       child: Scaffold(
         appBar: AppBar(
-          title: Text("M A D E B Y D A N I ♥",
-              style: GoogleFonts.calligraffitti(
-                color: MainColors.brown,
-                fontSize: 25,
-              )),
+          title: Center(
+            child: Text("M A D E B Y D A N I ♥",
+                style: GoogleFonts.calligraffitti(
+                  color: MainColors.brown,
+                  fontSize: 25,
+                )),
+          ),
         ),
         body: Column(
           children: [

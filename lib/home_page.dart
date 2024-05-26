@@ -17,7 +17,7 @@ class HomePage extends StatelessWidget {
         appBar: AppBar(
           title: Text("M A D E B Y D A N I ♥",
               style: GoogleFonts.calligraffitti(
-                color: MainColors.white,
+                color: MainColors.brown,
                 fontSize: 25,
               )),
         ),
@@ -28,19 +28,19 @@ class HomePage extends StatelessWidget {
                 Tab(
                   icon: Icon(
                     Icons.home,
-                    color: MainColors.white,
+                    color: MainColors.brown,
                   ),
                 ),
                 Tab(
                   icon: Icon(
                     Icons.settings,
-                    color: MainColors.white,
+                    color: MainColors.brown,
                   ),
                 ),
                 Tab(
                   icon: Icon(
                     Icons.person,
-                    color: MainColors.white,
+                    color: MainColors.brown,
                   ),
                 ),
               ],

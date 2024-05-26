@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tab_bar/colors.dart';
 import 'package:tab_bar/home_page.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(
 
-          //colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+          colorScheme: ColorScheme.fromSeed(seedColor:MainColors.brown),
           // useMaterial3: true,
           ),
       home: const HomePage(),

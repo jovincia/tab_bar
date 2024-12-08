@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:tab_bar/colors.dart';
 import 'package:tab_bar/tabs/home_tab.dart';
